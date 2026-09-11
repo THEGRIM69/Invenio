@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #001E21;
+    color: #EFF5F9;
+  }
+
+  /* SKUs, códigos de barras y números de inventario en fuente monoespaciada */
+  .font-mono-code {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom scrollbar con los colores oficiales */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #002B2E;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #018076;
+  border-radius: 3px;
+  border: 1px solid #004146;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #03BFB5;
+}
